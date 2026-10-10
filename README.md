@@ -62,15 +62,14 @@ typequiz --> comment & ending2
 ending2 --> playagain
 comment --> variable
 variable --> 
-
-
+ 
 ```
 
 ## Acknowledgements
 - Used [this file](https://gist.github.com/rene-d/9e584a7dd2935d0f461904b9f2950007) by rene-d for ANSI escape codes
 - Used various websites online for debugging
-- Used the Python documentation for guidance and ideas on the structure of the tutorial
+- Used the Python documentation for guidance and ideas on tutorial content
 - Used Mermaid Documentation for help with diagrams
 - Used Wikipedia for the history of Python
 
-**Everything else is fully original. No AI was used to write the code. **
+**Everything else is fully original. No AI was used to write the code.**

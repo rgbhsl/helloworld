@@ -244,5 +244,6 @@ def comment():
 
 def variable():
     print("Lesson 4 - Variables")
+    print("In Python, you can read variables")
 
 start()
