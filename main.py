@@ -187,7 +187,7 @@ def typequiz():
     string = input("5 questions. I won't say anything until you're done. Enter y to begin. ")
     if string != "y":
         while string != "y":
-        string = input("Enter y to begin. ")
+            string = input("Enter y to begin. ")
     else:
         print("Let's start.")
         lal()
