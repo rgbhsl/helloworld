@@ -242,8 +242,27 @@ def comment():
     breathe()
     variable()
 
-def variable():
-    print("Lesson 4 - Variables")
-    print("In Python, you can read variables")
+def varconin():
+    print("Lesson 4 - Variables, Constants, and Input")
+    print("In Python, you can assign data to variables or constants, like in mathematics.")
+    print("In this lesson, I'll try to make things more interactive for you. I'll teach you about input(). It's similar to print(), that you learnt earlier.")
+    breathe()
+    print("If you were paying attention, that is. Let's start.")
+    lal()
+    print("input() works like print, except it also asks the user for input.")
+    breathe()
+    print("...")
+    print("Big shocker, I know.")
+    breathe()
+    print("You can assign the input to a variable, and then use it in your program.")
+    print("I'll help you try it out, both from the perspective of a user and a programmer.")
+    print("...")
+    breathe()
+    print("Irritating.")
+    lal()
+    x = input("Enter a number, and i'll multiply it by 2.")
+    x.int
+
+
 
 start()
