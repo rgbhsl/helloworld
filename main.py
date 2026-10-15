@@ -255,13 +255,24 @@ def varconin():
     print("Big shocker, I know.")
     breathe()
     print("You can assign the input to a variable, and then use it in your program.")
-    print("I'll help you try it out, both from the perspective of a user and a programmer.")
+    print("I'll help you try variables, both from the perspective of a user and a programmer.")
     print("...")
     breathe()
     print("Irritating.")
     lal()
-    x = input("Enter a number, and i'll multiply it by 2.")
-    x.int
+    x = input("Enter a number, and I'll multiply it by 2.")
+    try float(x):
+        x = 2 * x
+        print(f"Your answer is {x}.")
+    except ValueError:
+        print("You never listen. Moving on.")
+    lal()
+    breathe()
+    x = input("Now, you've got to enter a name for your variable.")
+    print(f"{x} is a garbage name.")
+    print("Now assign data to your variable. It can be str, int, anything but be careful!")
+    print(f"So for example, if you variable name was {x}, you'd want to write "x = 9" or "x = "Potatoes".")
+    y = input
 
 
 
