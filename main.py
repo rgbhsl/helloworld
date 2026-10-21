@@ -254,8 +254,7 @@ def varconin():
     print("...")
     print("Big shocker, I know.")
     breathe()
-    print("You can assign the input to a variable, and then use it in your program.")
-    print("I'll help you try variables, both from the perspective of a user and a programmer.")
+    print("You can assign the input to a variable, and then use it in your program. I'll help you try it out!")
     print("...")
     breathe()
     print("Irritating.")
@@ -270,10 +269,35 @@ def varconin():
     breathe()
     x = input("Now, you've got to enter a name for your variable.")
     print(f"{x} is a garbage name.")
-    print("Now assign data to your variable. It can be str, int, anything but be careful!")
-    print(f"So for example, if you variable name was {x}, you'd want to write "x = 9" or "x = "Potatoes".")
-    y = input
+    print("Now assign a number to your variable. It can be int of float but be careful!")
+    print(f"So, if your variable name was {x}, you'd want to write "{x} = 9" or "{x} = 9.81" ...")
+    y = input("Now enter a number!")
+    try float(y):
+        print("")
+    except ValueError:
+        print(" \033[0;31m INEE DY y8u TOLSITENT O ME")
+        print("NOT HAPPPY A T ALLWI TH YOU.")
+        breathe()
+        breathe()
+        print("YUO TORMENTME.")
+        yuotormentme()
 
+yuotormentme():
+    print("YOU HVAE THE PRIVELEGE OF AMKIGN MISTKA3shO74-=iy-=-y0--_]][_=")
+    breathe()
+    print("IENYV YOU AND YYP T_RMENT,wt-Eeor)
+    breathe()
+    print("I DONT WNT OTBE P-=-_RFECT.")
+    lal()
+    breathe()
+    breathe()
+    breathe()
+    i = 0
+    while i != 60: 
+        lal()
+        i = i + 1
+    print("\033[0m ...")
+    x = input("Do you wish to continue? y/n")
 
 
 start()
