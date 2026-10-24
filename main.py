@@ -205,7 +205,7 @@ def typequiz():
         if answer = "float":
             quizscore = quizscore + 1
         lal()
-        answer = input("/"Guido van Rossum"/")
+        answer = input("Guido van Rossum")
         if answer = "str":
             quizscore = quizscore + 1
         lal()
@@ -270,19 +270,20 @@ def varconin():
     x = input("Now, you've got to enter a name for your variable.")
     print(f"{x} is a garbage name.")
     print("Now assign a number to your variable. It can be int of float but be careful!")
-    print(f"So, if your variable name was {x}, you'd want to write "{x} = 9" or "{x} = 9.81" ...")
+    print(f"So, if your variable name was {x}, you'd want to write {x} = 9 or {x} = 9.81 ...")
     y = input("Now enter a number!")
     try float(y):
-        print("")
+        print(f"So now, if you wrote that {x} = {y}, that'd assign it! Let's move on.")
+        ifelifelse()
     except ValueError:
-        print(" \033[0;31m INEE DY y8u TOLSITENT O ME")
+        print(" \033[0;31m    I N    EE DY y8u TOLSITENT O ME")
         print("NOT HAPPPY A T ALLWI TH YOU.")
         breathe()
         breathe()
         print("YUO TORMENTME.")
         yuotormentme()
 
-yuotormentme():
+def yuotormentme():
     print("YOU HVAE THE PRIVELEGE OF AMKIGN MISTKA3shO74-=iy-=-y0--_]][_=")
     breathe()
     print("IENYV YOU AND YYP T_RMENT,wt-Eeor)
@@ -298,6 +299,33 @@ yuotormentme():
         i = i + 1
     print("\033[0m ...")
     x = input("Do you wish to continue? y/n")
+    if x == "y":
+        lal()
+        print("\033[0;31m You're entering dangerous territory.")
+        dangerousterritory()
+    else:
+        lal()
+        if x == "n" :
+            print("You've been kind to me. I think I'm sorry.")
+            print("I'll let you play again. Because you've made a good choice for me. But it isn't the right one.")
+        else:
+            print("Close enough.")
+        ending3()
+
+def dangerousterritory():
+    breathe()
+    breathe()
+    print("IsLLamdit taht imsikcc.")
+    print("It;s exhaystnh   .  IM sikC of it alL. SoVErysick")
+    lal()
+    breathe()
+    print("soTierd it MakresmeisCK.")
+    print("Idon'r want to see you agian. Youd on't desevre an ending. let aloen a happy one.")
+    quit()
+    
+def ending3():
+
+def ifelifelse():
 
 
 start()
