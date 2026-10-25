@@ -324,6 +324,11 @@ def dangerousterritory():
     quit()
     
 def ending3():
+    lal()
+    breathe()
+    print("Ending 3 - Exhaustion")
+    print("I'm sick and tired of your mistakes. I don't want to play again.")
+    quit()
 
 def ifelifelse():
 
