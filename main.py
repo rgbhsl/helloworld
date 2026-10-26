@@ -158,11 +158,11 @@ def datatypes():
         boolean()
     elif x == "n":
         lal()
-        quiz()
+        typequiz()
     else:
         lal()
         print("You clearly can't follow instructions...")
-        quiz()
+        typequiz()
 
 def boolean():
     print("bool is straightforward. 1 of 2 possible values.")
@@ -188,8 +188,9 @@ def typequiz():
     print("Evaluate the question, then enter the most suitable datatype. Only write str, int, float, or bool.")
     string = input("5 questions. I won't say anything until you're done. Enter y to begin. ")
     if string != "y":
-        while string != "y":
-            string = input("Enter y to begin. ")
+        print("Let me say that again.")
+        lal()
+        typequiz()
     else:
         print("Let's start.")
         lal()
@@ -242,7 +243,7 @@ def comment():
     breathe()
     print("Next lesson.")
     breathe()
-    variable()
+    varconin()
 
 def varconin():
     print("Lesson 4 - Variables, Constants, and Input")
@@ -261,9 +262,10 @@ def varconin():
     breathe()
     print("Irritating.")
     lal()
-    x = input("Enter a number, and I'll multiply it by 2.")
-    try float(x):
-        x = 2 * x
+    try: 
+        x = input("Enter a number, and I'll multiply it by 2.")
+        float(x)
+        x = (2 * x)
         print(f"Your answer is {x}.")
     except ValueError:
         print("You never listen. Moving on.")
@@ -273,8 +275,9 @@ def varconin():
     print(f"{x} is a garbage name.")
     print("Now assign a number to your variable. It can be int of float but be careful!")
     print(f"So, if your variable name was {x}, you'd want to write {x} = 9 or {x} = 9.81 ...")
-    y = input("Now enter a number!")
-    try float(y):
+    try:
+        y = input("Now enter a number!")
+        float(y)
         print(f"So now, if you wrote that {x} = {y}, that'd assign it! Let's move on.")
         ifelifelse()
     except ValueError:
@@ -340,8 +343,9 @@ def ifelifelse():
     #I can;t even think.
     print("...")
     print("If evaluates a statement in order to execute an instruction. Elif does something similar... else is used for all other cases besides the ones specified in the if and elif lines.")
-    x = input("For example, you want the user to input a value, and you're quite hoping they don't make a mistake...")
-    try float(x):
+    try:
+        float(x)
+        x = input("For example, you want the user to input a value, and you're quite hoping they don't make a mistake...")
         x = float(x)
         if x > 29:
             print("Value is larger than 29.")
