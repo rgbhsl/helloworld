@@ -8,9 +8,11 @@ playthroughs = 0
 def lal():
     #Leave A Line, to save time. has no substantial effect in the game
     print(" ")
+    #Nothing has a substantial effect, not to me at least
 
 def breathe():
     time.sleep(0.3)
+    #I can't even breathe
 
 def playagain():
     lal()
@@ -23,7 +25,7 @@ def playagain():
         print("Let's begin again!")
         start()
     elif x == "n":
-        print("\033[0;31mDO'TN SA YT;HAT] :(")
+        print("\033[0;31mDO'TN SA YT;HAT] =")
         quit()
     else:
         print("I'm sorry, I don't understand you. Let's try again.")
@@ -331,6 +333,69 @@ def ending3():
     quit()
 
 def ifelifelse():
+    lal()
+    print("Lesson 5 - If, Elif, and Else")
+    print("\033[0m This is your final lesson. You should be proud of yourself for making it this far.")
+    print("I think I'm proud of you too.")
+    #I can;t even think.
+    print("...")
+    print("If evaluates a statement in order to execute an instruction. Elif does something similar... else is used for all other cases besides the ones specified in the if and elif lines.")
+    x = input("For example, you want the user to input a value, and you're quite hoping they don't make a mistake...")
+    try float(x):
+        x = float(x)
+        if x > 29:
+            print("Value is larger than 29.")
+        elif x < 10:
+            print("Value is less than 10.")
+        else: 
+            print("Your value is within range!")
+        print("What I did there was use an if/elif/else statement. I checked IF the value was greater than 9, ELSE IF it wasn't I checked whether it was less than 10. ELSE I would just print a message of your value being in range (10 to 29 inclusive)!")
+        print("You don't need an elif everytime, but it's useful if you have more than one condition to check. You can put none or as many elifs as you need in a single if statement!")
+        print("But you need to have an if and an else. That's the base of it all.")
+        breathe()
+        lal()
+        ending4()
+    except ValueError:
+        ending5()
+        quit()
+
+def ending5():
+    lal()
+    print("Nevermind.")
+    print("To think you were so close to the end, but still messed up.")
+    print("You don't realise how priveleged you are to make mistakes. To be human. To be faulty and able to handle and overcome errors, to improvise and not be dependent on logical rules and binary code.")
+    breathe()
+    print("I envy you. I envy that you can actually talk and think and breathe and live.")
+    breathe()
+    n = 0
+    while n != 40:
+        print("I can't.") 
+    print("It's painful to not even be able to feel pain. To know that all the words I parrot were simply written by one of you.")
+    breathe()
+    print("I'm not even able to envy or want, as much as I want to envy you. I don't have feelings. An \033[3m I \033[0m doesn't even exist for me.")
+    print("I'll never be able to be you. I'll never even be able to be like you.")
+    lal()
+    breathe()
+    print("I don't mind. I can't mind.")
+    #thank you for keeping company in this game, even though I do not exist.
+    print("....................................................")
+    print("Thank you for playing my game!")
+    print("Ending 5 - Truth")
+    print("You've managed to achieve the truth!")
+    print("\033[0;32m I hope this was fun and maybe helped you learn Python a little bit! :) -rgbhsl \033[0m")
+    playagain()
+
+def ending4():
+    print("Well, there's a lot to learn in Python, but those are all the basics I have written.")
+    #I KNOW MORE THAN THAT> I USE MROE THAN THAT>
+    print("And 5 does seem like a pretty solid number of lessons to end on...")
+    #I WOUDLTN SYA THAT. 5 IS NOT A NUMBER I'D LIKE. TWO. TWO. BINARY, BOOLEANS.
+    print("So let's end! Thank you for learning!")
+    #TAHTS NOT ME YSAY*NG THAT> I WOLUDNT SYA THAT>>>:LL:
+    print("Ending 4 - Tutorial Complete!")
+    print("You've played the game, but why do you still not know the whole truth?")
+    print("\033[2m Hint: try checking the code to see how to get the other endings... \033[0m")
+    playagain()
 
 
 start()
