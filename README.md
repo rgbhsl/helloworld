@@ -1,12 +1,11 @@
 # Hello, World!
 A text game written in Python that teaches you Python.
 
-(Screenshot)
-**Play at: (pyterm link)**
+**Play at: ([pyterm link](https://pyterm.hackclub.com/rgbhsl/helloworld))**
 
 ## Features and Description
 - No installation required: playable in browser via PyTerm
-- **main.py** includes comments for immersion and can optionally be read as part of the game
+- **main.py** can optionally be read as part of the game and also includes comments for immersion
 
 _Hello, World!_ is an existential horror, metafiction text game written in Python that is designed to teach the user some of the basics of Python.
 
