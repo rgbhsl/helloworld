@@ -196,23 +196,23 @@ def typequiz():
         quizscore = 0
         answer = ""
         answer = input("2")
-        if answer = "int":
+        if answer == "int":
             quizscore = quizscore + 1
         lal()
         answer = input("int")
-        if answer = "str":
+        if answer == "str":
             quizscore = quizscore + 1
         lal()
         answer = input("2.0")
-        if answer = "float":
+        if answer == "float":
             quizscore = quizscore + 1
         lal()
         answer = input("Guido van Rossum")
-        if answer = "str":
+        if answer == "str":
             quizscore = quizscore + 1
         lal()
         answer = input("2 > 0")
-        if answer = "bool":
+        if answer == "bool":
             quizscore = quizscore + 1
         if quizscore != 0 :
             print(f"Not bad. {quizscore} out of 5. Next lesson then.")
