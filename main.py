@@ -288,7 +288,7 @@ def varconin():
 def yuotormentme():
     print("YOU HVAE THE PRIVELEGE OF AMKIGN MISTKA3shO74-=iy-=-y0--_]][_=")
     breathe()
-    print("IENYV YOU AND YYP T_RMENT,wt-Eeor)
+    print("IENYV YOU AND YYP T_RMENT,wt-Eeor")
     breathe()
     print("I DONT WNT OTBE P-=-_RFECT.")
     lal()
