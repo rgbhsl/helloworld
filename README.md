@@ -58,8 +58,12 @@ playagain --> k
 boolean --> comment
 typequiz --> comment & j([ending2])
 j --> playagain
-comment --> variable
-variable --> ,
+comment --> varconin
+varconin --> youtormentme & ifelifelse
+yuotormentme --> dangerousterritory & k([ending3])
+ifelifelse --> h([ending4]) & i([ending5])
+h --> playagain
+i --> playagain
  
 ```
 
