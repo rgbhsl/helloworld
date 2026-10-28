@@ -73,4 +73,8 @@ i --> playagain
 - Used Mermaid Documentation for help with diagrams
 - Used Wikipedia for the history of Python
 
-**Everything else is fully original. No AI was used to write the code.**
+**Everything else is fully original. No AI was used to write the code or the markdown.**
+
+### Extra details:
+*Why I made this:*
+I'm a beginner to Python myself and really enjoy making text based games playable in terminal. I had an idea for a metafiction game like this for a while, but I thought it'd be interesting if said game was also a tutorial for its own language. I feel like a lot of tutorials tend to be quite boring and unapproachable, and this would also challenge me to learn new skills and get better at Python. And I did! I learnt about Try and Except and different types of errors. I made this inspired by fiction like _I Have No Mouth and I Must Scream_. 
